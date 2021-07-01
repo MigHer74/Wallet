@@ -8,4 +8,4 @@ In the next days I'm going to update this project with new additions and improve
 
 - wallet.py
 
-> If you think education is expensive, try ignorance. - Derek Bok
+> **If you think education is expensive, try ignorance. - Derek Bok**
