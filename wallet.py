@@ -1,5 +1,10 @@
-# Menu del Programa
+# Importacion de modulos
+import os
 
+# Limpieza de pantalla
+os.system ("cls") 
+
+# Menu del Programa
 print("Menu Principal")
 print()
 print("1. Recibir")
@@ -12,7 +17,6 @@ print("x. Salir")
 print()
 
 # Estructura de Control del Menu Principal
-
 continuar = True
 
 while continuar:
