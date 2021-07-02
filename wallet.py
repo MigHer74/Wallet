@@ -22,8 +22,18 @@ continuar = True
 while continuar:
     sel = input("Elija una opción: ")
 
-    if sel == "x":
-        print("Hasta luego")
+    if sel == "1":
+        print("Seleccionaste Recibir")
+    elif sel == "2":
+        print("Seleccionaste Transferir")
+    elif sel == "3":
+        print("Seleccionaste Balance Sencillo")
+    elif sel == "4":
+        print("Seleccionaste Balance General")
+    elif sel == "5":
+        print("Seleccionaste Historico de Transacciones")
+    elif sel == "x" or sel == "X":
+        print("Adios, Hasta luego")
         continuar = False
     else:
-        print("Hiciste la seleccion " + str(sel))
+        print("Opción " + sel + ",no es valida")
