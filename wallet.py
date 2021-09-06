@@ -1,25 +1,27 @@
 # Importacion de modulos
 import os
 
-# Limpieza de pantalla
-os.system ("cls") 
-
-# Menu del Programa
-print("Menu Principal")
-print()
-print("1. Recibir")
-print("2. Transferir")
-print("3. Balance Sencillo")
-print("4. Balance General")
-print("5. Historico de Transacciones")
-print()
-print("x. Salir")
-print()
-
 # Estructura de Control del Menu Principal
+# Limpieza de Pantalla y Mostrar el Menu 
 continuar = True
 
 while continuar:
+
+    # Limpieza de pantalla
+    os.system ("cls") 
+
+    # Menu del Programa
+    print("Menu Principal")
+    print()
+    print("1. Recibir")
+    print("2. Transferir")
+    print("3. Balance Sencillo")
+    print("4. Balance General")
+    print("5. Historico de Transacciones")
+    print()
+    print("x. Salir")
+    print()
+
     sel = input("Elija una opción: ")
 
     if sel == "1":
